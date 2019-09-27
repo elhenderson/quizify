@@ -40,7 +40,7 @@ html(lang='en')
   #centerTriviaButtons.card-body
       button(id="revealAnswer") Click here for answer!
        button(id="nextQuestion") Next Question
-.card.text-center
+.card.text-center(style='bottom: 0; position: fixed; width: 100%')
   include includes/js
   p Answer:
   p(class="revealAnswer")= answer
@@ -51,7 +51,7 @@ html(lang='en')
     .jumbotron-fluid.medium-warning.text-white.text-center(style='background: rgba(9, 172, 248, 0.788);')
       .container
         h1.display- 
-        p.lead Try Again!
+        p.lead 
         footer.mastfoot.mt-auto
         .inner
           p
